@@ -15,6 +15,7 @@ def load_working_model(path_to_model):
 
 def load_images(path_to_images):
     img_dir = path_to_images
+    import pdb; pdb.set_trace()
     image_files = [f for f in os.listdir(img_dir) if f.endswith('.tiff')]
     images = []
     for image_file in image_files:
